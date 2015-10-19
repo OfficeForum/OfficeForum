@@ -1,0 +1,33 @@
+{
+    "name": "alex75/catimg",
+    "type": "phpbb-extension",
+    "description": "add an image for the categories from acp; in the same way already as is possible for forum",
+    "homepage": "www.phpbb-store.it",
+    "version": "1.0.2",
+    "time": "2015-07-01",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Alessandro DI BENEDETTO",
+            "username": "alex75",
+            "email": "alex@phpbb-store.it",
+            "homepage": "www.phpbb-store.it",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "display-name": "Category Image",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.1.x"
+        },
+        "version-check": {
+            "host": "www.phpbb.com",
+            "directory": "/customise/db/extension/image_category",
+            "filename": "version_check"
+        }
+    }
+}

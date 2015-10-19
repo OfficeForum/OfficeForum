@@ -1,0 +1,39 @@
+{
+    "name": "mob/viewactivetopics",
+    "type": "phpbb-extension",
+    "description": "Display View Active Topics link in the footer Tool Drop-Down in viewtopic page only.",
+    "homepage": "http://www.mixingonbeat.com/phpbb/viewforum.php?f=163",
+    "version": "1.0.1",
+    "keywords": [
+        "phpbb",
+        "mixingonbeat",
+        "extension",
+        "display",
+        "active",
+        "topics",
+        "viewtopic"
+    ],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "MixingOnBeat",
+            "username": "M.O.B.",
+            "email": "info@mixingonbeat.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "extra": {
+        "display-name": "MOB add Active Topics link on viewtopic tools",
+        "soft-require": {
+            "phpbb/phpbb": "3.1.*"
+        },
+        "version-check": {
+            "host": "www.phpbb.com",
+            "directory": "/customise/db/extension/mob_add_active_topics_link",
+            "filename": "version_check"
+        }
+    }
+}

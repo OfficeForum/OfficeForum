@@ -1,0 +1,30 @@
+{
+    "name": "bb3mobi/inlineimg",
+    "type": "phpbb-extension",
+    "description": "Consistent placement of image attachments.",
+    "homepage": "http://phpbbguru.net",
+    "version": "1.0.0",
+    "time": "2014-11-30",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Anvar",
+            "homepage": "http://bb3.mobi",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "display-name": "Inline images in attachment",
+        "soft-require": {
+            "phpbb/phpbb": "3.1.*@dev"
+        },
+        "version-check": {
+            "host": "www.phpbb.com",
+            "directory": "/customise/db/extension/inline_images_in_attachment",
+            "filename": "version_check"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+<!-- IF S_VIEWTOPIC -->
+<script type="text/javascript">
+$(document).ready(function() {
+/* Add resize attach in phpBB3.1 && Anvar bb3.mobi */
+	$('dl.thumbnail img, dt.attach-image img').load(function() {
+		var w  = $(this).width();
+		var h = $(this).height();
+		var rh = $(this).height();
+		if (w > h) {
+			h = w;
+			w = w*(h/rh);
+		}
+		$(this).width(w*(2/3));
+		$(this).height(h*(2/3));
+	});
+	$('dl.thumbnail img, dt.attach-image img').each(function() {
+		var src = $(this).attr('src');
+		$(this).attr('src', '');
+		$(this).attr('src', src);
+	});
+});
+</script>
+<!-- ENDIF -->

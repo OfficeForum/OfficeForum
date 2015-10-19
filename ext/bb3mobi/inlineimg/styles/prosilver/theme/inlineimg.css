@@ -1,0 +1,25 @@
+/* Moded by attach inline img bb3.mobi*/
+.attachbox dd {
+	margin-top: 4px;
+	padding-top: 4px;
+	clear: left;
+	display: inline;
+	border: 0!important;
+}
+
+.attachbox dd dl {
+	border-bottom: 1px solid #ddd;
+	display: inline-block;
+	max-width: 100%;
+	margin: 2px;
+}
+
+div.inline-attachment {
+	display: inline-block;
+}
+
+dl.thumbnail, dl.file {
+	display: inline-block!important;
+	vertical-align: middle;
+	margin-right: 5px;
+}
