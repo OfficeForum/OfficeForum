@@ -9,6 +9,7 @@ https://www.phpbb.com/community/viewtopic.php?f=456&t=2318596
 https://www.phpbb.com/community/viewtopic.php?f=456&t=2259561
 https://www.phpbb.com/community/viewtopic.php?f=456&t=2290041
         https://www.phpbb.com/community/viewtopic.php?f=456&t=2256956   MUST
+https://github.com/phpbb-extensions/teamsecurity
 
 -------------------------------------------------------------------------------------------------------------------------------
 
