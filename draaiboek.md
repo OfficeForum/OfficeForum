@@ -19,6 +19,8 @@ taal op NL zetten voor iedereen
 <br />
 stijl op NL zetten
 <br />
+Captcha op Simpel zetten
+<br />
 alle mods uitschakelen op nieuwe host
 <br />
 verwijder ALLE bestanden behalve:
