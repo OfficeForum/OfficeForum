@@ -60,4 +60,4 @@ inschakelen welke mods nodig
 <br />
 stijl aanpassen naar OFForum
 <br />
-offorum.net ofline halen
+<b><i><h1>offorum.net ofline halen</h1></i></b>
