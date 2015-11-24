@@ -1,3 +1,5 @@
+<b><i><h1>offorum.net uitzetten</h1></i></b>
+<br /><br />
 data downloaden op pc
 <br />
 op oude forum iedereen standaard zaken zetten(style en taal & captcha op normaal zetten)
