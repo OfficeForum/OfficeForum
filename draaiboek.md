@@ -43,13 +43,21 @@ verwijder volgende mappen en bestanden uit de lijst
 <br />
 vervolgens ga je naar <a href="http://offorum.eu/install/database_update.php" taget="_blank">HIER</a>
 <br />
-mocht ik fouten krijgen (SQL ERROR [ mysqli ]
-
-Data too long for column 'user_password' at row 1 [1406]): <b>users tabel password op 60 zetten</b>
+mocht ik fouten krijgen:
 <br />
-indien deze fout: (Fatal error: Uncaught exception 'Symfony\Component\DependencyInjection\Exception\InvalidArgumentException' with message 'The service definition "10" does not exist): <b>verwijder in o_profile_fields het extra profile field van office</b>
+(SQL ERROR [ mysqli ]
+Data too long for column 'user_password' at row 1 [1406]): 
 <br />
-
+<b><i>users tabel password op 60 zetten</i></b>
+<br />
+indien deze fout: 
+<br />
+(Fatal error: Uncaught exception 'Symfony\Component\DependencyInjection\Exception\InvalidArgumentException' with message 'The service definition "10" does not exist):
+<br />
+<b><i>verwijder in o_profile_fields het extra profile field van office</i></b>
+<br />
 inschakelen welke mods nodig
+<br />
+stijl aanpassen naar OFForum
 <br />
 offorum.net ofline halen
